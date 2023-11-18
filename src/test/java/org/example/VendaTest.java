@@ -11,6 +11,7 @@ public class VendaTest {
         venda.addItem(item1);
         venda.addItem(item2);
         venda.darDesconto(10.0);
+
         assertEquals(63.0, venda.calcularValorTotal());
 
 
